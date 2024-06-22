@@ -8,11 +8,11 @@ The ATG task was experimentally conducted using [llemma_formal2formal
 
 
 
-Comparison of tactic sample accuracy (TSA) and overall accuracy (OA) on MiniF2F datasets.
+Comparison of tactic sample accuracy (TSA) and pass@1 on MiniF2F datasets.
 
-It is worth noting that overall accuracy is strongly related to the search method used. Here, we use best first search with 32 actions, 100 items limit, and a 20-minute time limit.
+It is worth noting that overall accuracy (pass@1) is strongly related to the search method used. Here, we use best first search with 32 actions, 100 items limit, and a 20-minute time limit.
 
-| Model                  | TSA  | OA   |
+| Model                  | TSA  | Pass@1   |
 |------------------------|------|------|
 | Llemma-7B              | 22.0 | 27.8 |
 | Llemma-34B             | 23.2 | 27.5 |
