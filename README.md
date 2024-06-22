@@ -28,3 +28,5 @@ It is worth noting that overall accuracy is strongly related to the search metho
 `few_shot.py` is used for test base model.
 
 `proofsearch` is used for early stop. 
+
+training data is in `samples`.
